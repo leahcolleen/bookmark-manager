@@ -4,6 +4,9 @@ source "https://rubygems.org"
 
 
 gem 'sinatra'
+gem 'pg'
 gem 'sinatra-contrib'
-gem 'rspec'
-gem 'capybara'
+gem 'rake'
+
+gem 'rspec', group: :test
+gem 'capybara', group: :test
